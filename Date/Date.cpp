@@ -22,10 +22,10 @@ Date::Date(int day, int month, int year) {
     }
 }
 
-Date& Date:: operator+=(int numDays) {
-    month = (month + numDays / 30) % 12;
+Date& Date:: operator+=(int numDays) { 
     year = year + (numDays / 360);
-    day = ((day + numDays) - 360) % 30;
+    month = (month + numDays / 30) % 12;
+    day = (day + numDays) % 360 % 30;
     return *this;
 }
 
