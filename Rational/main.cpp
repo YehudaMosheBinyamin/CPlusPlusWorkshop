@@ -1,7 +1,7 @@
 #include"Rational.h"
 #include<iostream>
 using namespace std;
-//328972427
+//Yehuda Moshe Binyamin
 
 /*A program that receives two rational numbers from user, and prints the results of various operations on them*/
 int main(void)

@@ -2,7 +2,7 @@
 #include "Worker.h"
 using namespace std;
 /**
-*328972427
+Yehuda Moshe Binyamin
 *A program that receives details about the workers and prints the id and name of both the hardest worker(the worker who worked the most hours) 
 *and the highest salaried worker
 **/

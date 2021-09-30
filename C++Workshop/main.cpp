@@ -2,7 +2,7 @@
 #include <cstdlib>
 #include "Fraction.h"
 using namespace std;
-//328972427
+//Yehuda Moshe Binyamin
 /**
 * A program that receives two fractionsas an input and prints whether they are equal or not.
 * If they are not, they will be printed.

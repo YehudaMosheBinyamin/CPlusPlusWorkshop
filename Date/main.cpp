@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 enum Codes{UpdateDate=1,PreIncrement,PostIncrement,PlusEquals,Bigger,Smaller,Equal,Exit=-1};
-//328972427
+//Yehuda Moshe Binyamin
 /**
 *Program to do operations on dates, such as the result of adding days to the result, updating the date, checking if it's bigger than an other date
 * or smaller or equal.It's possible to choose requested operation based on Codes values.
