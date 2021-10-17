@@ -1,4 +1,13 @@
 #include "BA.h"
+BA::BA()
+{
+    this->idNumber = 0;
+    this->firstName = "";
+    this->lastName = "";
+    this->numOfCourses = 0;
+    this->grades = NULL;
+    this->numGrades = 0;
+}
 BA::BA(int id, string firstName, string lastName, int numCourses, float* grades, int numGrades)
 {
     this->idNumber = id;
@@ -47,7 +56,7 @@ bool BA::milga()
 
 string BA::studType()
 {
-    string type = "BA";
+    string type = string("BA");
     return type;
 }
 

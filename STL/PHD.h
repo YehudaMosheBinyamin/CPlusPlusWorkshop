@@ -4,6 +4,7 @@ class PHD : public Student
 {/*Number of hours a PHD student conducts weekly*/
     int weeklyResearchHours;
 public:
+    PHD();
     /**
      * @brief Constructor
      * @param id
@@ -24,4 +25,5 @@ public:
     */
     void print();
     string studType();
+    int getWeeklyResearchHours();
 };

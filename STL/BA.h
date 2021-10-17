@@ -17,6 +17,7 @@ public:
      * @param grades
      * @param numGrades
     */
+    BA();
     BA(int id, string firstName, string lastName, int numCourses, float* grades, int numGrades);
     /**
      * @brief Prints information about the student

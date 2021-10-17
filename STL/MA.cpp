@@ -1,5 +1,9 @@
 #include "MA.h"
 
+MA::MA():BA()
+{
+    this->inResearch = false;
+}
 MA::MA(int id, string firstName, string lastName, int numCourses, float* grades, int numGrades, bool inResearch) :
     BA(id, firstName, lastName, numCourses, grades, numGrades)
 {
@@ -31,10 +35,9 @@ void MA::print()
 
 string MA::studType()
 {
-    string type = "MA";
+    string type = string("MA");
     return type;
 }
-
 bool MA::getInResearch()
 {
     return inResearch;

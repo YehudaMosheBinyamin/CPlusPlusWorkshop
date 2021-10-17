@@ -14,11 +14,11 @@ public:
     virtual void print();
     virtual ~Student();
     virtual string studType() = 0;
-    string getFName();
-    string getLName();
-    void setFName(string newFName);
-    void setLName(string newLName);
-    int getNumCourses();  
+    string getFname();
+    string getLname();
+    void setFname(string newFName);
+    void setLname(string newLName);
+    int getNumCourses();
 };
 
 

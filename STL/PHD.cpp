@@ -1,5 +1,13 @@
 #include "PHD.h"
 
+PHD::PHD()
+{
+    this->idNumber = 0;
+    this->firstName = "";
+    this->lastName = "";
+    this->numOfCourses = 0;
+    this->weeklyResearchHours = 0;
+}
 PHD::PHD(int id, string firstName, string lastName, int numCourses, int weeklyResearchHours)
 {
     this->idNumber = id;
@@ -26,6 +34,11 @@ void PHD::print()
 
 string PHD::studType()
 {
-    string type = "PHD";
+    string type = string("PHD");
     return type;
+}
+
+int PHD::getWeeklyResearchHours()
+{
+    return weeklyResearchHours;
 }

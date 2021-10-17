@@ -15,29 +15,29 @@ Student::~Student()
 {
 }
 
-string Student::getFName()
+string Student::getFname()
 {
     return firstName;
 }
 
-string Student::getLName()
+string Student::getLname()
 {
     return lastName;
 }
 
-void Student::setFName(string newFName)
+void Student::setFname(string newFName)
 {
     firstName = newFName;
 }
 
-void Student::setLName(string newLName)
+void Student::setLname(string newLName)
 {
     lastName = newLName;
 }
 
 int Student::getNumCourses()
 {
-    return numberOfCourses;
+    return numOfCourses;
 }
 
 

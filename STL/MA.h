@@ -5,6 +5,7 @@ class MA : public BA
 {/*Field to signify whether the student conducts research*/
     bool inResearch;
 public:
+    MA();
     /**
      * @brief Constructor
      * @param id
