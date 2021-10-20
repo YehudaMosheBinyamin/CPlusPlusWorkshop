@@ -37,6 +37,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StackQueue", "StackQueue\St
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "STL", "STL\STL.vcxproj", "{191728EE-4830-41D0-8D6D-1E5D0A9C4E06}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Files", "Files\Files.vcxproj", "{265F1C64-6201-413B-8D00-6B972EB87E42}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -181,6 +183,14 @@ Global
 		{191728EE-4830-41D0-8D6D-1E5D0A9C4E06}.Release|x64.Build.0 = Release|x64
 		{191728EE-4830-41D0-8D6D-1E5D0A9C4E06}.Release|x86.ActiveCfg = Release|Win32
 		{191728EE-4830-41D0-8D6D-1E5D0A9C4E06}.Release|x86.Build.0 = Release|Win32
+		{265F1C64-6201-413B-8D00-6B972EB87E42}.Debug|x64.ActiveCfg = Debug|x64
+		{265F1C64-6201-413B-8D00-6B972EB87E42}.Debug|x64.Build.0 = Debug|x64
+		{265F1C64-6201-413B-8D00-6B972EB87E42}.Debug|x86.ActiveCfg = Debug|Win32
+		{265F1C64-6201-413B-8D00-6B972EB87E42}.Debug|x86.Build.0 = Debug|Win32
+		{265F1C64-6201-413B-8D00-6B972EB87E42}.Release|x64.ActiveCfg = Release|x64
+		{265F1C64-6201-413B-8D00-6B972EB87E42}.Release|x64.Build.0 = Release|x64
+		{265F1C64-6201-413B-8D00-6B972EB87E42}.Release|x86.ActiveCfg = Release|Win32
+		{265F1C64-6201-413B-8D00-6B972EB87E42}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
