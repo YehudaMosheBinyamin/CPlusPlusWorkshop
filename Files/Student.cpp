@@ -4,20 +4,20 @@
 Student::Student()
 {
     studId = uniqueId;
-    strncpy_s(firstName,20,"                   ",20);
-    strncpy_s(lastName,20,"                   ",20);
+    strncpy_s(firstName, 20, "                   ", 20);
+    strncpy_s(lastName, 20, "                   ", 20);
     for (int i = 0; i < 5; ++i)
     {
         registeredToCourse[i] = false;
     }
     uniqueId++;
 }
-int Student::uniqueId =1;
+int Student::uniqueId = 1;
 Student::Student(int studId, char firstName[20], char lastName[20], bool registeredToCourses[5])
 {
     this->studId = studId;
-    strncpy_s(this->firstName, 20,firstName, 20);
-    strncpy_s(this->lastName, 20,lastName, 20);
+    strncpy_s(this->firstName, 20, firstName, 20);
+    strncpy_s(this->lastName, 20, lastName, 20);
     for (int i = 0; i < 5; ++i)
     {
         this->registeredToCourse[i] = registeredToCourses[i];
@@ -56,15 +56,15 @@ void Student::setCourseI(bool inCourse, int courseNum)
 
 ostream& operator<<(ostream& s, Student& stud)
 {
-    s<< stud.getStudId() << endl;
-    s<< stud.getFirstName() << endl;
+    s << stud.getStudId() << endl;
+    s << stud.getFirstName() << endl;
     s << stud.getLastName() << endl;
-    bool* getRegisteredToCourse=stud.getRegisteredToCourse();
+    bool* getRegisteredToCourse = stud.getRegisteredToCourse();
     for (int i = 0; i < 5; ++i)
     {
-        if (getRegisteredToCourse[i] ==true)
+        if (getRegisteredToCourse[i] == true)
         {
-           s<< "Y" << endl;
+            s << "Y" << endl;
         }
         else
         {
